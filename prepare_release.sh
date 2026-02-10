@@ -22,7 +22,7 @@ cp -r src/ packaging/ Makefile LICENSE README.md pyproject.toml requirements.txt
 
 # Create tarball
 echo "  🗜️  Creating tarball..."
-cd /tmp
+git pscd /tmp
 tar -czf "${FULLNAME}.tar.gz" "${FULLNAME}"
 mv "${FULLNAME}.tar.gz" ~/rpmbuild/SOURCES/
 cd - > /dev/null
