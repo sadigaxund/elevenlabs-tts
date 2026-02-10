@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.elevenlabs.tts</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>ElevenLabs TTS</name>
+  <summary>Desktop GUI for ElevenLabs TTS</summary>
+  
+  <description>
+    <p>
+      ElevenLabs TTS brings professional-grade text-to-speech to your desktop using the ElevenLabs AI API.
+      Convert any text into natural-sounding speech with just a few clicks.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>High-quality AI-powered voices</li>
+      <li>Multi-API key management with quota tracking</li>
+      <li>Smart audio caching to save quota</li>
+      <li>GNOME media controls integration (MPRIS)</li>
+      <li>Keyboard shortcut support for quick TTS</li>
+      <li>Voice parameter customization (stability, similarity, speed)</li>
+    </ul>
+  </description>
+  
+  <launchable type="desktop-id">com.elevenlabs.tts.desktop</launchable>
+  
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window for text input</caption>
+    </screenshot>
+  </screenshots>
+  
+  <url type="homepage">https://github.com/sadigaxund/elevenlabs-tts</url>
+  <url type="bugtracker">https://github.com/sadigaxund/elevenlabs-tts/issues</url>
+  
+  <provides>
+    <binary>elevenlabs-tts</binary>
+    <binary>elevenlabs-tts-settings</binary>
+  </provides>
+  
+  <categories>
+    <category>AudioVideo</category>
+    <category>Audio</category>
+  </categories>
+  
+  <keywords>
+    <keyword>tts</keyword>
+    <keyword>speech</keyword>
+    <keyword>text-to-speech</keyword>
+    <keyword>elevenlabs</keyword>
+    <keyword>ai</keyword>
+  </keywords>
+  
+  <releases>
+    <release version="1.0.0" date="2026-02-10">
+      <description>
+        <p>Initial release</p>
+        <ul>
+          <li>GUI application for easy text-to-speech</li>
+          <li>Command-line tool for keyboard shortcuts</li>
+          <li>Settings UI for voice and API key management</li>
+          <li>MPRIS integration for media controls</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  
+  <content_rating type="oars-1.1" />
+  
+  <developer_name>Sadig Akhund</developer_name>
+  
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </supports>
+</component>

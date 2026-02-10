@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ElevenLabs TTS CLI
+Comment=Text-to-Speech with ElevenLabs (CLI)
+Exec=elevenlabs-tts
+Icon=elevenlabs-tts
+Terminal=false
+Categories=AudioVideo
+StartupNotify=false
+NoDisplay=true

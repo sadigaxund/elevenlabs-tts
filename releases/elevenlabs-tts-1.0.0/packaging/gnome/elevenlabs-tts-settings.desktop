@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ElevenLabs TTS
+Comment=Configure ElevenLabs Text-to-Speech settings
+Exec=python3 %INSTALL_DIR%/elevenlabs_tts_settings.py
+Icon=elevenlabs-tts
+Terminal=false
+Categories=AudioVideo
+StartupNotify=true
